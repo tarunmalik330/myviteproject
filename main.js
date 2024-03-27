@@ -3,11 +3,6 @@ import { setupCounter } from './counter.js'
 import Logo from './public/assets/images/png/pagelogo.png'
 
 document.querySelector('#app').innerHTML = `
-<div class="bg-secondary py-5">
-    <div class="container">
-      <h2 class="bg_gray text-white fs-3 fw-bold text-center rounded-5 py-3 mb-0">My Vite Project</h2>
-    </div>
-</div>
 <div class="bg_gray py-3">
   <div class="container py-1">
     <a herf="#"><img src="${Logo}" alt="logo" width="176" height="56"/></a>
